@@ -1,4 +1,5 @@
 name: "Data Science: where is my job?"
+output_dir: "."
 navbar:
   title: "Home"
   right:
@@ -14,6 +15,5 @@ navbar:
       href: https://github.com/ShanJiang21/P8105_final_website.io
 output:
   html_document:
-    include:
-       after_body: footer.html
+
   
