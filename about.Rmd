@@ -61,12 +61,15 @@ icon::fa("hourglass-start", size = 3)
 ### Results 
 Reviewing U.S. job market of data scientists in recent 10 years
 
+* Degrees 
+
+“high school” is most often observed in the job description and it has significantly greater log odds ratio when comparing the frequency appeared in Fortune 500 U.S  companies with those excluded
 Tools
 
-Skills
+* Skills
 
 
-Text Analysis
+* Text Analysis
 
 
 <br />
