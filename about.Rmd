@@ -2,7 +2,13 @@
 title: "Data Science: where is your next job?"
 output: 
   html_document:
-    author: "Shan Jiang(sj2921), Jiayi Shen (js5354), Jie Yu (jy2944), Eleanor Zhang (zz2602), Guojing Wu (gw2383)"
+    self_contained: no
+    highlight: haddock
+    toc: true
+    toc_float:
+      collapse: true
+      smooth_scroll: false
+      author: "Shan Jiang(sj2921), Jiayi Shen (js5354), Jie Yu (jy2944), Eleanor Zhang (zz2602), Guojing Wu (gw2383)"
 ---
 
 ### Our motivation
@@ -34,7 +40,7 @@ The macro-economic situation in data science industry embeded in background part
 
 3. **Indeed retrieved data**: [Data Scientist Job Posts in the U.S on Indeed Website in 2018 August](https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us#alldata.csv)
 
-4. Comparison of **fortune 500 U.S companies** and  **non fortune 500 U.S companies** are based on Data from [The 500 Largest Industrial Corporations in the U.S., Published by Fortune  magazine (updated by October 5, 2018)](https://catalog.data.gov/dataset/fortune-500-corporate-headquarters)
+4. Comparison of **Fortune 500 U.S companies** and  **Non Fortune 500 U.S companies** are based on Data from [The 500 Largest Industrial Corporations in the U.S., Published by Fortune  magazine (updated by October 5, 2018)](https://catalog.data.gov/dataset/fortune-500-corporate-headquarters)
 
 <center>
 ```{r echo=FALSE, fig.align="center"}
@@ -63,7 +69,7 @@ Tools
 * Skills
 
 
-* Text Analysis
+*Text Analysis
 
 
 <br />
