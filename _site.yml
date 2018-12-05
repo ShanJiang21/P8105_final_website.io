@@ -15,5 +15,6 @@ navbar:
       href: https://github.com/ShanJiang21/P8105_final_website.io
 output:
   html_document:
-
+    include:
+       after_body: footer.html
   
