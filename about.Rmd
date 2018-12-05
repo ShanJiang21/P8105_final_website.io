@@ -14,8 +14,7 @@ output:
 ### Our motivation
 
 <p>
-<img src="" alt="Smiley face" style="float:right;width:42px;height:42px;">
-A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+
 </p>
 <img src="./images/2. Data-Science_bh.jpeg" style="width:75%">
 

@@ -11,7 +11,7 @@
 
 
 
-<title>Data Science: where is your next job?</title>
+<title>README.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,12 +19,25 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.3.1/css/fontawesome-all.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -251,101 +264,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = false;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -393,62 +311,13 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Data Science: where is your next job?</h1>
 
 </div>
 
 
-<div id="our-motivation" class="section level3">
-<h3>Our motivation</h3>
-<p>
-</p>
-<p><img src="images/2.%20Data-Science_bh.jpeg" style="width:75%"></p>
-<center>
-<i class="fas  fa-rocket fa-5x fa-spin "></i>
-</center>
-<p>
-</p>
-</div>
-<div id="methods" class="section level3">
-<h3>Methods</h3>
-<div id="data" class="section level4">
-<h4>data</h4>
-<p>The macro-economic situation in data science industry embeded in background part were retrieved from the Bureau of Labour Statistics website-<em>Occupational Employment Statistics</em>:</p>
-<ol style="list-style-type: decimal">
-<li><p><strong>National data</strong>:<a href="https://www.bls.gov/oes/tables.htm">National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using data of year 2017)</a></p></li>
-<li><p><strong>State data</strong>:<a href="https://www.bls.gov/oes/tables.htm">National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using data covering 2007 until 2017)</a></p></li>
-<li><p><strong>Indeed retrieved data</strong>: <a href="https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us#alldata.csv">Data Scientist Job Posts in the U.S on Indeed Website in 2018 August</a></p></li>
-<li><p>Comparison of <strong>fortune 500 U.S companies</strong> and <strong>non fortune 500 U.S companies</strong> are based on Data from <a href="https://catalog.data.gov/dataset/fortune-500-corporate-headquarters">The 500 Largest Industrial Corporations in the U.S., Published by Fortune magazine (updated by October 5, 2018)</a></p></li>
-</ol>
-<center>
-<i class="fas  fa-hourglass-half fa-3x "></i>
-</center>
-</div>
-</div>
-<div id="analysis" class="section level3">
-<h3>Analysis</h3>
-<p>For the purpose of working with job description text stored as strings in R, we removed stop words from the text before we searched for words or phrases occurring at high frequency among the text. Occasionally throughout our navigating progress, we have to adjust the stop words library in order to keep some case and letter sensitive word, for example, software languages R, C, or C++.</p>
-<center>
-<i class="fas  fa-hourglass-start fa-3x "></i>
-</center>
-</div>
-<div id="results" class="section level3">
-<h3>Results</h3>
-<p>Reviewing U.S. job market of data scientists in recent 10 years</p>
-<p>Tools</p>
-<p>Skills</p>
-<p>Text Analysis</p>
-<br />
-<center>
-<i class="fas  fa-hourglass-end fa-3x "></i>
-</center>
-</div>
-<div id="discussion" class="section level3">
-<h3>Discussion</h3>
-</div>
-<div id="github" class="section level3">
-<h3>Github</h3>
-<p>Sometimes you need to say a bit about the site – how it was made, where it’s hosted, where the source code can be found. Here is the Github repository of our project, you can be find everything you need <a href="https://github.com/zixuanzhang/p8105_Final_Project">here</a>.</p>
+<div id="p8105_final_website.io" class="section level1">
+<h1>P8105_final_website.io</h1>
+<p>P8105_final_website.io</p>
 </div>
 
 <br><br>
@@ -461,8 +330,6 @@ div.tocify {
 </footer>
 
 
-</div>
-</div>
 
 </div>
 
