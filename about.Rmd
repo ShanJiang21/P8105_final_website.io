@@ -8,7 +8,7 @@ output:
     toc_float:
       collapse: true
       smooth_scroll: false
-      author: "Shan Jiang(sj2921), Jiayi Shen (js5354), Jie Yu (jy2944), Eleanor Zhang (zz2602), Guojing Wu (gw2383)"
+    author: "Shan Jiang(sj2921), Jiayi Shen (js5354), Jie Yu (jy2944), Eleanor Zhang (zz2602), Guojing Wu (gw2383)"
 ---
 
 ### Our motivation
@@ -29,6 +29,7 @@ icon::fa("rocket", size = 5, animate = "spin")
 
 
 ### Methods
+
 
 #### data
 
