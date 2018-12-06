@@ -15,7 +15,7 @@ title: "Data and Packages"
 
 #### Exploratory Study  
 
-* we used two datasets for we used our jobs analysis.
+*  We used two datasets for we used our jobs analysis.
 
 1. [Data Scientist Job Posts in the U.S on Indeed Website in 2018 August](https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us#alldata.csv)
 
