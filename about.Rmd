@@ -17,6 +17,7 @@ output:
 <img src="./images/2. Data-Science_bh.jpeg" style="width:75%">
 
 <center>
+
 ```{r echo=FALSE}
 icon::fa("rocket", size = 5, animate = "spin")
 ```
@@ -64,8 +65,15 @@ icon::fa("hourglass-end", size = 3)
 
 Based on Text Analysis
 
-* “high school” is most often observed in the job description.
+* Frequency barplot here: single word
 
+Not surprisingly, words such as "data", "experience", "team", "research" and "development" rank the top word counts throughout job descriptions. 
+
+* Frequency barplot here: double words
+“high school” is most often observed in the job description.
+
+* Frequency barplot here: triple words
+The most frequent phrases are not related technical skills or any qualifications, but statements of equal opportunity employers, sexual orientation, race and religion. 
 
 <center>
 

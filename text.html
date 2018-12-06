@@ -11,7 +11,7 @@
 
 
 
-<title>Data Science: where is your next job?</title>
+<title>Text Mining</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,8 +23,26 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.3.1/css/fontawesome-all.min.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -271,7 +289,7 @@ $(document).ready(function ()  {
       scrollTo: 0
     };
     options.showAndHide = true;
-    options.smoothScroll = false;
+    options.smoothScroll = true;
 
     // tocify
     var toc = $("#TOC").tocify(options).data("toc-tocify");
@@ -399,68 +417,86 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Data Science: where is your next job?</h1>
+<h1 class="title toc-ignore">Text Mining</h1>
 
 </div>
 
 
-<p>
-</p>
-<p><img src="images/2.%20Data-Science_bh.jpeg" style="width:75%"></p>
-<center>
-<i class="fas  fa-rocket fa-5x fa-spin "></i>
-</center>
-<p>
-</p>
-<div id="section" class="section level3">
-<h3></h3>
-<center>
-<i class="fas  fa-hourglass-half fa-3x "></i>
-</center>
+<div id="indeed-data" class="section level2">
+<h2>Indeed Data</h2>
+<p>Indeed data is scraped and cleaned by Shanshan Lu from Indeed website available on <a href="https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us#alldata.csv">Kaggle</a>). This dataset contains 7,000 data scientist jobs around the U.S. on August 3rd, 2018. Main variables include company Name, position name, location, job description, and number of reviews of the company. We primarily focus on the job description column that contains information about a short description of company, job functions, requirement and route of application. We combine the list of top 500 largest companies selected by Fortune magazine based on the ranking of total revenue from another dataset, then use this dataset to explore our interests.</p>
 </div>
-<div id="analysis" class="section level3 tabset tabset-fade tabset-pills">
-<h3>Analysis</h3>
-<div id="degree" class="section level4">
-<h4><strong>Degree</strong></h4>
-<p>We predefined degree categories for applicants in pool.</p>
+<div id="job-qualifications" class="section level2">
+<h2>Job Qualifications</h2>
+<div id="which-degree-is-prefered" class="section level4">
+<h4>which degree is prefered?</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">degree</th>
+<th align="right">Fortune500</th>
+<th align="right">non-Fortune500</th>
+<th align="right">total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">bachelor</td>
+<td align="right">985</td>
+<td align="right">3304</td>
+<td align="right">4289</td>
+</tr>
+<tr class="even">
+<td align="left">master</td>
+<td align="right">664</td>
+<td align="right">2194</td>
+<td align="right">2858</td>
+</tr>
+<tr class="odd">
+<td align="left">phd</td>
+<td align="right">347</td>
+<td align="right">1274</td>
+<td align="right">1621</td>
+</tr>
+<tr class="even">
+<td align="left">other</td>
+<td align="right">174</td>
+<td align="right">1166</td>
+<td align="right">1340</td>
+</tr>
+<tr class="odd">
+<td align="left">high_school</td>
+<td align="right">57</td>
+<td align="right">66</td>
+<td align="right">123</td>
+</tr>
+</tbody>
+</table>
+<p>Bachelor, master and phd are most often observed in total word count. Since this is simply a raw count of degree word frequency, we can only conclude that a job applicant with bachelor degree can meet the degree requirement of most positions but may not be sufficient enough to get one into the position.</p>
 </div>
-<div id="applicants-background" class="section level4">
-<h4><strong>Applicants Background</strong></h4>
+<div id="what-kind-of-knowledge-background-is-desired" class="section level4">
+<h4>what kind of knowledge background is desired?</h4>
+<p>The skills and toolset candidates are expected to bring into the position are paramount at the consideration of recruiters. Based on prior knowledge, we predefined the fields as Statistics, Computer Science(including machine learning), Mathematics, Quantitative, Biology, Data Science, Economics, Physics, Biostatistics, MBA, and Chemical Engineering.</p>
+<p><img src="text_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>Statistics, mathematics, computer science and quantitative take up almost two-thirds of the entire square panel. These words are at the root heart of this data science orientated field. However, the word “data science” does not appear as frequently as it might be supposed to be.</p>
 </div>
-<div id="tools" class="section level4">
-<h4><strong>Tools</strong></h4>
-<p>The most required programming tool in job posts is <strong>Python</strong>, <strong>R</strong> , and the third is SQL. Excel, followed by Tableau and SQL are more required by non-fortune 500 corporations, while fortune 500 corporations are more likely to prefer applicants with Perl, C/C++, and Java.</p>
-</div>
-<div id="skills" class="section level4">
-<h4><strong>Skills</strong></h4>
-<ul>
-<li>Employees with background in <strong>Computer Science</strong> and <strong>Mathemetics</strong> are more preferable to fortune 500 corporations.</li>
-</ul>
-<p><br /> <br /> <br /></p>
-<center>
-<i class="fas  fa-hourglass-end fa-3x "></i>
-</center>
+<div id="which-tools-and-skills-are-needed" class="section level4">
+<h4>which tools and skills are needed?</h4>
+<p><img src="text_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>The most required programming tool in job posts are Python, R, and SQL. Excel, followed by Tableau and SQL favored by non-fortune 500 corporations, while fortune 500 corporations prefer applicants with Perl, C/C++, and Java.</p>
+<p><img src="text_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>On the skill perspective, interpersonal skills are most frequently mentioned across job postings, followed by skills of data manipulation &amp; analysis, machine learning and modeling. Non-fortune 500 put more weights on writing skills, data visualization, and data manipulation &amp; analysis, while fortune 500 corporations emphasize data mining, machine learning, artificial intelligence, deep learning, and modeling.</p>
 </div>
 </div>
-<div id="text-mining" class="section level3">
-<h3>Text Mining</h3>
-<p>Based on Text Analysis</p>
-<ul>
-<li>Frequency barplot here: single word</li>
-</ul>
-<p>Not surprisingly, words such as “data”, “experience”, “team”, “research” and “development” rank the top word counts throughout job descriptions.</p>
-<ul>
-<li><p>Frequency barplot here: double words “high school” is most often observed in the job description.</p></li>
-<li><p>Frequency barplot here: triple words</p></li>
-</ul>
-<center>
-<i class="fas  fa-hourglass-start fa-3x "></i>
-</center>
-</div>
-<div id="github" class="section level3">
-<h3>Github</h3>
-<p>Sometimes you need to say a bit about the site – how it was made, where it’s hosted, where the source code can be found.</p>
-<p>Here is the Github repository of our project, you can be find everything you need <a href="https://github.com/zixuanzhang/p8105_Final_Project">here</a>.</p>
+<div id="findings-via-text-analysis" class="section level2">
+<h2>Findings via Text Analysis</h2>
+<p>Given that we have nearly 7000 full job descriptions posted on Indeed by employers, we aspire to explore and visualize the most commonly used words across these descriptions. As we expected, degree requirements, related background, working ethics and culture in the company might show up at the top of the list.</p>
+<p>We started with word counts using window size 2 and displayed top 50 words below. The single word mining does not provide any informative message in its own right because of its lack of context. Our realizations will get more intriguing as we gradually leverage window size because words will start making sense when they become at least a phrase.</p>
+<p><img src="text_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>Here we see popular terms such as machine learning, data science, equal opportunity, computer science, and communication skills towards the end! These top 50 phrases generally can be categorized as software tools, interpersonal skills, and sociodemographic status information like gender identity and veterans status.</p>
+<p>Then we display the result of windown size 3 since window size 4 realization does not adds additonal information.</p>
+<p><img src="text_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>Most of the information standing out here is about sexual orientation, gender identity, and equal employment. The most frequent phrases are not related technical skills or any qualifications, but statements of equal opportunity employers, sexual orientation, race and religion. We also see phrases like computer science degree, machine learning techniques. From here we conclude that companies take equal consideration of candidates seriously in addition to the applicants’ qualified backgrounds.</p>
 </div>
 
 <br><br>
