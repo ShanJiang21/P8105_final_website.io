@@ -158,7 +158,7 @@ tool_new %>%
 The most required programming tool in job posts are Python, R, and SQL. Excel, followed by Tableau and SQL favored by non-fortune 500 corporations, while fortune 500 corporations prefer applicants with Perl, C/C++, and Java.
 
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.width = 7, fig.height = 6}
 skill_new = indeed %>%
   mutate(
     machine_learning = ifelse(str_detect(.$description,  c("[Mm]achine [Ll]earning")) == TRUE, 1, 0),
@@ -253,4 +253,4 @@ inspection_words %>%
   coord_flip()
 ```
 
-Most of the information standing out here is about sexual orientation, gender identity, and equal employment. The most frequent phrases are not related technical skills or any qualifications, but statements of equal opportunity employers, sexual orientation, race and religion. We also see phrases like computer science degree, machine learning techniques. From here we conclude that companies take equal consideration of candidates seriously in addition to the applicants’ qualified backgrounds.
+Most of the information standing out here is about **sexual orientation**, **gender identity**, and **equal employment**. The most frequent phrases are not related technical skills or any qualifications, but statements of equal opportunity employers, sexual orientation, race and religion. We also see phrases like computer science degree, machine learning techniques. From here we conclude that companies take equal consideration of candidates seriously in addition to the applicants’ qualified backgrounds.
