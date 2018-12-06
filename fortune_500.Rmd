@@ -1,5 +1,5 @@
 ---
-title: "Fortune 500 v.s. Non-fortune 500" 
+title: "fortune_500" 
 output: 
   html_document:
     toc: TRUE

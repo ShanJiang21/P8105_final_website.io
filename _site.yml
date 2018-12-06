@@ -8,9 +8,9 @@ navbar:
     - text: "Data"
       href: data.html
     - text: "Text Mining"
-      href: Text Mining.html
-    - text: "Fortune 500"
-      href: Fortune 500.html
+      href: text Mining.html
+    - text: "fortune_500"
+      href: fortune_500.html
     - text: "Flexdashboard"
       href: flexdashboard.html
     - icon: fa-youtube fa-lg

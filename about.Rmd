@@ -43,6 +43,7 @@ The macro-economic situation in data science industry embeded in background part
 ```{r echo=FALSE, fig.align="center"}
 icon::fa("hourglass-half", size = 3)
 ```
+
 </center>
 
 ### Analysis
@@ -65,6 +66,8 @@ icon::fa("hourglass-start", size = 3)
 ```
 
 
+
+</center>
 Reviewing U.S. job market of data scientists on indeed we find: 
 
 
