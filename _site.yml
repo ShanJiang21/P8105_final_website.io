@@ -7,6 +7,10 @@ navbar:
       href: about.html
     - text: "Data"
       href: data.html
+    - text: "Fortune 500"
+      href: Fortune 500.html
+    - text: "Text Mining"
+      href: Text Mining.html
     - text: "Flexdashboard"
       href: flexdashboard.html
     - icon: fa-youtube fa-lg

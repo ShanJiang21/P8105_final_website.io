@@ -11,8 +11,6 @@ output:
     author: "Shan Jiang(sj2921), Jiayi Shen (js5354), Jie Yu (jy2944), Eleanor Zhang (zz2602), Guojing Wu (gw2383)"
 ---
 
-### Our motivation
-
 <p>
 
 </p>
@@ -25,13 +23,11 @@ icon::fa("rocket", size = 5, animate = "spin")
 </center>
 <p> </p>
 
+### 
 
 
 
-### Methods
-
-
-#### data
+### Data
 
 The macro-economic situation in data science industry embeded in background part were retrieved from the Bureau of Labour Statistics website-*Occupational Employment Statistics*:
 
@@ -48,19 +44,29 @@ The macro-economic situation in data science industry embeded in background part
 icon::fa("hourglass-half", size = 3)
 ```
 </center>
+
 ### Analysis
 
-For the purpose of working with job description text stored as strings in R, we removed stop words from the text before we searched for words or phrases occurring at high frequency among the text. Occasionally throughout our navigating progress,  we have to adjust the stop words library in order to keep some case and letter sensitive word, for example, software languages R, C, or C++. 
+#### **Degree**
+We predefined degree categories for applicants in pool. 
+
+#### **Applicants Background**
+
+#### **Tools**
+
+#### **Skills**
+
+#### **Text Mining**
 
 <center>
+
 ```{r echo=FALSE, fig.align="center"}
 icon::fa("hourglass-start", size = 3)
 ```
 
-</center>
 
-### Results 
-Reviewing U.S. job market of data scientists in recent 10 years
+Reviewing U.S. job market of data scientists on indeed we find: 
+
 
 * Degrees 
 
@@ -80,8 +86,10 @@ icon::fa("hourglass-end", size = 3)
 ```
 
 </center>
+
 ### Discussion 
 
 ### Github
 Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found.
+
 Here is the Github repository of our project, you can be find everything you need [here](https://github.com/zixuanzhang/p8105_Final_Project).
