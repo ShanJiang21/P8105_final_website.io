@@ -27,6 +27,8 @@ icon::fa("rocket", size = 5, animate = "spin")
 ### Screencast 
 
 
+
+
 <center>
 ```{r echo=FALSE, fig.align="center"}
 icon::fa("hourglass-half", size = 3)
@@ -43,7 +45,6 @@ icon::fa("hourglass-half", size = 3)
 * Guojing Wu | Email:gw2383@cumc.columbia.edu
 
 
-
 ```{r echo=FALSE, fig.align="center"}
 icon::fa("hourglass-end", size = 3)
 ```
@@ -52,14 +53,11 @@ icon::fa("hourglass-end", size = 3)
 
 ### Major Findings 
 
+* **Northeastern states** and **California** are in high demand of labor with data science skills, **Texas** and **Corolado** are the most potential data science hubs.
+* **Bachelor**
 *
 *
-*
-
-
-
-
-
+* 
 
 
 <center>
