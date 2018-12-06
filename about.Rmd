@@ -54,6 +54,7 @@ We predefined degree categories for applicants in pool.
 #### **Applicants Background**
 
 #### **Tools**
+The most required programming tool in job posts is Python, R next, and the third is SQL. Excel, followed by Tableau and SQL are more required by non-fortune 500 corporations, while fortune 500 corporations are more likely to prefer applicants with Perl, C/C++, and Java.
 
 #### **Skills**
 
@@ -68,19 +69,24 @@ icon::fa("hourglass-start", size = 3)
 
 
 </center>
+
 Reviewing U.S. job market of data scientists on indeed we find: 
 
 
 * Degrees 
 
-“high school” is most often observed in the job description and it has significantly greater log odds ratio when comparing the frequency appeared in Fortune 500 U.S  companies with those excluded
-Tools
+* Employees with background in **Computer Science** and **Mathemetics** are more preferable to fortune 500 corporations
+
+
+* Tools
 
 * Skills
 
 
+
 *Text Analysis
 
+* “high school” is most often observed in the job description.
 
 <br />
 <center>
