@@ -27,7 +27,6 @@ icon::fa("rocket", size = 5, animate = "spin")
 ### Screencast 
 
 
-
 <center>
 ```{r echo=FALSE, fig.align="center"}
 icon::fa("hourglass-half", size = 3)
@@ -35,25 +34,15 @@ icon::fa("hourglass-half", size = 3)
 
 </center>
 
-### Analysis {.tabset .tabset-fade .tabset-pills}
+### Team member 
 
-#### **Degree**
-We predefined degree categories for applicants in pool. 
-
-#### **Applicants Background** 
-
-#### **Tools**
-The most required programming tool in job posts is **Python**, **R** , and the third is SQL. Excel, followed by Tableau and SQL are more required by non-fortune 500 corporations, while fortune 500 corporations are more likely to prefer applicants with Perl, C/C++, and Java.
-
-#### **Skills**
-* Employees with background in **Computer Science** and **Mathemetics** are more preferable to fortune 500 corporations.
-
-<br />
-<br />
-<br />
+* Shan Jiang | Email:sj2921@cumc.columbia.edu
+* Jiayi Shen | Email:js5354@cumc.columbia.edu
+* Jie Yu     | Email:jy2944@cumc.columbia.edu
+* Eleanor Zhang |Email:zz2602@cumc.columbia.edu
+* Guojing Wu | Email:gw2383@cumc.columbia.edu
 
 
-<center>
 
 ```{r echo=FALSE, fig.align="center"}
 icon::fa("hourglass-end", size = 3)
@@ -61,19 +50,17 @@ icon::fa("hourglass-end", size = 3)
 
 </center>
 
-### Text Mining
+### Major Findings 
 
-Based on Text Analysis
+*
+*
+*
 
-* Frequency barplot here: single word
 
-Not surprisingly, words such as "data", "experience", "team", "research" and "development" rank the top word counts throughout job descriptions. 
 
-* Frequency barplot here: double words
-“high school” is most often observed in the job description.
 
-* Frequency barplot here: triple words
-The most frequent phrases are not related technical skills or any qualifications, but statements of equal opportunity employers, sexual orientation, race and religion. 
+
+
 
 <center>
 
