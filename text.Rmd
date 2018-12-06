@@ -148,7 +148,7 @@ tool_new %>%
   geom_col() +
   geom_text(aes(label = sum), hjust = -0.2, vjust = 0.4) +
   coord_flip() +
-  labs(y = "word count", title = "Programming/Statistical Tools") +
+  labs(y = "Count", title = "Programming/Statistical Tools") +
   theme(
     legend.position = "none",
     axis.title.y = element_blank())
@@ -211,7 +211,7 @@ Given that we have nearly 7000 full job descriptions posted on Indeed by employe
 
 We started with word counts using window size 2 and displayed top 50 words below. The single word mining does not provide any informative message in its own right because of its lack of context. Our realizations will get more intriguing as we gradually leverage window size because words will start making sense when they become at least a phrase.
 
-```{r echo=FALSE, fig.width = 8, fig.height = 12}
+```{r echo=FALSE, fig.width = 8, fig.height = 10}
 data(stop_words)
 keep_letter_stop_words <- stop_words %>% filter(!word %in% c("C", "c", "R", "r"))
 inspection_words = 
@@ -237,7 +237,7 @@ Here we see popular terms such as machine learning, data science, equal opportun
 
 Then we display the result of windown size 3 since window size 4 realization does not adds additonal information.
 
-```{r echo=FALSE, fig.width = 8, fig.height = 12}
+```{r echo=FALSE, fig.width = 8, fig.height = 10}
 inspection_words %>%
   nest(word) %>%
   mutate(text = map(data, unlist), 
@@ -251,6 +251,7 @@ inspection_words %>%
   geom_bar(stat = "identity", fill = "blue", alpha = .6) + 
   labs(y = "triple world frequency") +
   coord_flip()
+
 ```
 
 Most of the information standing out here is about **sexual orientation**, **gender identity**, and **equal employment**. The most frequent phrases are not related technical skills or any qualifications, but statements of equal opportunity employers, sexual orientation, race and religion. We also see phrases like computer science degree, machine learning techniques. From here we conclude that companies take equal consideration of candidates seriously in addition to the applicants’ qualified backgrounds.

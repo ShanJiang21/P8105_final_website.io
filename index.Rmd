@@ -50,5 +50,5 @@ Some of the most exciting questions in our projects are:
 * Which degree is preferred on average, bachelor, master or Ph.D? 
 * Which tool is more desirable? R, Python or Java for Fortune 500 U.S companies?
 * Are these Fortune 500 U.S. companies and Non-Fortune 500 U.S. companies have different expectations of their candidates?
-* Are top-500 companies more likely to hire Ph.D. students then Master students?
+* Are Fortune-500 companies more likely to hire Ph.D. students then Master students?
 

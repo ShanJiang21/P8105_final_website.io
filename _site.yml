@@ -7,7 +7,7 @@ navbar:
       href: about.html
     - text: "Data"
       href: data.html
-    - text: "Text"
+    - text: "Text Mining"
       href: text.html
     - text: "Fortune 500"
       href: fortune500.html

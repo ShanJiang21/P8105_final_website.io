@@ -58,13 +58,13 @@ icon::fa("hourglass-start", size = 3)
 
 * **Northeastern states** and **California** are in high demand of labor with data science skills, **Texas** and **Corolado** are the most potential data science hubs.
 
-* **Bachelor** degrees are the most common, **computer science** and **mathematics** are the most desirable academic background in Fortune 500 companies.
+* **Bachelor** is the most common threshold degree; **Computer Science** and **Mathematics** are the most desirable academic background in Fortune 500 companies.
 
 * **Python**, **R** and **SQL** are most required **tools**. 
 
 * **Non-Fortune 500** companies prefer more data manipulation tools, while **Fortune 500** companies require high-level programming tools.
 
-*  **Interpersonal skills**, **data manipulation** & analysis, and machine learning are the skills most in need. 
+*  **Interpersonal Skills**, **Data Manipulation & Analysis**, and **Machine Learning** are the skills most in need. 
 
 * **Non-fortune 500** companies focus on general skills, and elementary data analytical skills, while **Fortune 500** companies desire advanced and professional data science skills.
  
