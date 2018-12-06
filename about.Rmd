@@ -27,8 +27,9 @@ icon::fa("rocket", size = 5, animate = "spin")
 
 ### Screencast 
 
-You can click the button on the top right side for details. 
+You can click the button on the top right side and thumbs up for us. 
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7_i6gDIfwxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Team member 
 
@@ -61,7 +62,6 @@ icon::fa("hourglass-start", size = 3)
 *  **Interpersonal Skills**, **Data Manipulation & Analysis**, and **Machine Learning** are the skills most in need. 
 
 * **Non-fortune 500** companies focus on general skills, and elementary data analytical skills, while **Fortune 500** companies desire advanced and professional data science skills.
- 
 
 
 <center>
