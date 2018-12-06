@@ -46,48 +46,21 @@ icon::fa("hourglass-half", size = 3)
 
 </center>
 
-### Analysis
+### Analysis {.tabset .tabset-fade .tabset-pills}
 
 #### **Degree**
 We predefined degree categories for applicants in pool. 
 
-#### **Applicants Background**
+#### **Applicants Background** 
 
 #### **Tools**
-The most required programming tool in job posts is Python, R next, and the third is SQL. Excel, followed by Tableau and SQL are more required by non-fortune 500 corporations, while fortune 500 corporations are more likely to prefer applicants with Perl, C/C++, and Java.
+The most required programming tool in job posts is **Python**, **R** , and the third is SQL. Excel, followed by Tableau and SQL are more required by non-fortune 500 corporations, while fortune 500 corporations are more likely to prefer applicants with Perl, C/C++, and Java.
 
 #### **Skills**
+* Employees with background in **Computer Science** and **Mathemetics** are more preferable to fortune 500 corporations.
 
-#### **Text Mining**
-
-<center>
-
-```{r echo=FALSE, fig.align="center"}
-icon::fa("hourglass-start", size = 3)
-```
-
-
-
-</center>
-
-Reviewing U.S. job market of data scientists on indeed we find: 
-
-
-* Degrees 
-
-* Employees with background in **Computer Science** and **Mathemetics** are more preferable to fortune 500 corporations
-
-
-* Tools
-
-* Skills
-
-
-
-*Text Analysis
-
-* “high school” is most often observed in the job description.
-
+<br />
+<br />
 <br />
 <center>
 ```{r echo=FALSE, fig.align="center"}
@@ -96,7 +69,21 @@ icon::fa("hourglass-end", size = 3)
 
 </center>
 
-### Discussion 
+
+<center>
+
+```{r echo=FALSE, fig.align="center"}
+icon::fa("hourglass-start", size = 3)
+```
+</center>
+
+### Text Mining
+
+Based on Text Analysis
+
+* “high school” is most often observed in the job description.
+
+
 
 ### Github
 Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found.
