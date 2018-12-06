@@ -328,7 +328,9 @@ $(document).ready(function () {
 <h3>Data</h3>
 <div id="macroeconomics-analysis" class="section level4">
 <h4>Macroeconomics Analysis</h4>
-<p>The macro-economic situation in data science industry Labor market embedded in background part were retrieved from the Bureau of Labour Statistics website-<em>Occupational Employment Statistics</em>:</p>
+<ul>
+<li>The macro-economic situation in data science industry Labor market embedded in background part were retrieved from the Bureau of Labour Statistics website-<em>Occupational Employment Statistics</em>:</li>
+</ul>
 <ol style="list-style-type: decimal">
 <li><p><strong>National data</strong>:<a href="https://www.bls.gov/oes/tables.htm">National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using data of year 2017)</a></p></li>
 <li><p><strong>State data</strong>:<a href="https://www.bls.gov/oes/tables.htm">National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using data covering 2007 until 2017)</a></p></li>
@@ -336,20 +338,22 @@ $(document).ready(function () {
 </div>
 <div id="exploratory-study" class="section level4">
 <h4>Exploratory Study</h4>
-<p>we used two datasets for we used our jobs analysis.</p>
+<ul>
+<li>we used two datasets for we used our jobs analysis.</li>
+</ul>
 <ol style="list-style-type: decimal">
 <li><a href="https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us#alldata.csv">Data Scientist Job Posts in the U.S on Indeed Website in 2018 August</a></li>
 </ol>
 <ul>
-<li>The main analysis draws from data scraped and cleaned by Shanshan Lu from Kaggle. This Indeed dataset originates from Indeed website, containing 7,000 data scientist jobs around the U.S. by August 3rd, 2018. Main variables include <code>Company Name</code>, <code>Position Name</code>, <code>Location</code>, <code>Job Description</code>, and <code>Number of Reviews of the Company</code>. We mainly squared at the job description column that contains information such as a short description of company and position, requirement and route of application.</li>
+<li><p>The main analysis draws from data scraped and cleaned by Shanshan Lu from Kaggle. This Indeed dataset originates from Indeed website, containing 7,000 data scientist jobs around the U.S. by August 3rd, 2018. Main variables include <code>Company Name</code>, <code>Position Name</code>, <code>Location</code>, <code>Job Description</code>, and <code>Number of Reviews of the Company</code>. We mainly squared at the job description column that contains information such as a short description of company and position, requirement and route of application.</p></li>
+<li><p>Based on the ranking of total revenues of each company’s retrospective fiscal year, Fortune magazine’s annual report of top 500 largest companies in the U.S has always been regarded as a reliable measurement for the value of a company. Many of the Fortune 500 companies now have a job title of Chief Data Scientist or Head of Analytics, and some Internet magnets have invested much on data mining, Artificial Intelligence or related areas.</p></li>
 </ul>
-<p>
-Based on the ranking of total revenues of each company’s retrospective fiscal year, Fortune magazine’s annual report of top 500 largest companies in the U.S has always been regarded as a reliable measurement for the value of a company. Many of the Fortune 500 companies now have a job title of Chief Data Scientist or Head of Analytics, and some Internet magnets have invested much on data mining, Artificial Intelligence or related areas.
-</p>
 <ol start="2" style="list-style-type: decimal">
 <li>Comparison of top-500 companies and non-top 500 companies are based on Data from <a href="https://catalog.data.gov/dataset/fortune-500-corporate-headquarters">The 500 Largest Industrial Corporations in the U.S., Published by Fortune magazine (updated by October 5, 2018)</a></li>
 </ol>
-<p>Given that differences of preference of these big-names and small companies may have for employees, we will combine the Fortune 500 company list and our Indeed dataset by company name. Through creating a new logical variable named <code>flag</code> to indicate whether each company falls into Fortune 500 companies category or not, this full dataset will be adopted for our Exploratory analysis.</p>
+<ul>
+<li>Given that differences of preference of these big-names and small companies may have for employees, we will combine the Fortune 500 company list and our Indeed dataset by company name. Through creating a new logical variable named <code>flag</code> to indicate whether each company falls into Fortune 500 companies category or not, this full dataset will be adopted for our Exploratory analysis.</li>
+</ul>
 </div>
 </div>
 <div id="r-packages" class="section level2 tabset tabset-fade tabset-pills">
@@ -375,6 +379,7 @@ Based on the ranking of total revenues of each company’s retrospective fiscal 
 <li>plotly</li>
 <li>wordcloud</li>
 <li>RColorBrewer</li>
+<li>packcircles</li>
 <li>flexdashboard</li>
 </ul>
 </div>
