@@ -10,7 +10,7 @@ title: "Data and Packages"
 
 1. **National data**:[National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using data of year 2017)](https://www.bls.gov/oes/tables.htm)
 
-2. **State data**:[National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using data covering 2007 until 2017)](https://www.bls.gov/oes/tables.htm)
+2. **State data**:[National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using year 2017 data)](https://www.bls.gov/oes/tables.htm)
 
 
 #### Exploratory Study  
