@@ -39,7 +39,7 @@ This is P8105 Data Science Job outlook final project website. <br />
 The importance of data science is indisputable.For analyzing massive information and  Students from statistics, computer science, economics and other related quantitative fields are all diving in searching more job opportunities in this area. 
 
 
-According to the *2018 August Linkedin Workforce Report*, there is a roaring demand for workforces with data science skills across industries in the United States. As more institutions and industry sectors rely on big data to deal with operational challenges and optimize their decisions, the shortage of well-trained personnel in data science has been reported to be 151,717. Some regions are even in acute shortage, such as New York City, San Francisco, and Los Angeles. 
+According to the [*2018 August Linkedin Workforce Report*](https://economicgraph.linkedin.com/resources/linkedin-workforce-report-august-2018), there is a roaring demand for workforces with data science skills across industries in the United States. As more institutions and industry sectors rely on big data to deal with operational challenges and optimize their decisions, the shortage of well-trained personnel in data science has been reported to be 151,717. Some regions are even in acute shortage, such as New York City, San Francisco, and Los Angeles. 
 <br />
 
 We are inspired by the great analysis work done and the blog edited by Shanshan Lu posted on [Kaggle](https://www.kaggle.com/).
