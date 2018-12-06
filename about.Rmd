@@ -73,6 +73,7 @@ icon::fa("hourglass-end", size = 3)
 </center>
 
 ### Github
+
 Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found.
 
 Here is the Github repository of our project, you can be find everything you need [here](https://github.com/zixuanzhang/p8105_Final_Project).
