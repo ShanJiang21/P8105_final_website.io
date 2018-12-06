@@ -211,7 +211,7 @@ Given that we have nearly 7000 full job descriptions posted on Indeed by employe
 
 We started with word counts using window size 2 and displayed top 50 words below. The single word mining does not provide any informative message in its own right because of its lack of context. Our realizations will get more intriguing as we gradually leverage window size because words will start making sense when they become at least a phrase.
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.width = 8, fig.height = 12}
 data(stop_words)
 keep_letter_stop_words <- stop_words %>% filter(!word %in% c("C", "c", "R", "r"))
 inspection_words = 
@@ -237,7 +237,7 @@ Here we see popular terms such as machine learning, data science, equal opportun
 
 Then we display the result of windown size 3 since window size 4 realization does not adds additonal information.
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.width = 8, fig.height = 12}
 inspection_words %>%
   nest(word) %>%
   mutate(text = map(data, unlist), 
