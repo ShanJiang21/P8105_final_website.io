@@ -27,18 +27,6 @@ icon::fa("rocket", size = 5, animate = "spin")
 
 
 
-### Data
-
-The macro-economic situation in data science industry embeded in background part were retrieved from the Bureau of Labour Statistics website-*Occupational Employment Statistics*:
-
-1. **National data**:[National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using data of year 2017)](https://www.bls.gov/oes/tables.htm)
-
-2. **State data**:[National Occupational Employment Status and Wage Estimates from US Bureau of Labour Statistics (using data covering 2007 until 2017)](https://www.bls.gov/oes/tables.htm)
-
-3. **Indeed retrieved data**: [Data Scientist Job Posts in the U.S on Indeed Website in 2018 August](https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us#alldata.csv)
-
-4. Comparison of **Fortune 500 U.S companies** and  **Non Fortune 500 U.S companies** are based on Data from [The 500 Largest Industrial Corporations in the U.S., Published by Fortune  magazine (updated by October 5, 2018)](https://catalog.data.gov/dataset/fortune-500-corporate-headquarters)
-
 <center>
 ```{r echo=FALSE, fig.align="center"}
 icon::fa("hourglass-half", size = 3)
@@ -62,19 +50,14 @@ The most required programming tool in job posts is **Python**, **R** , and the t
 <br />
 <br />
 <br />
+
+
 <center>
+
 ```{r echo=FALSE, fig.align="center"}
 icon::fa("hourglass-end", size = 3)
 ```
 
-</center>
-
-
-<center>
-
-```{r echo=FALSE, fig.align="center"}
-icon::fa("hourglass-start", size = 3)
-```
 </center>
 
 ### Text Mining
@@ -84,6 +67,13 @@ Based on Text Analysis
 * “high school” is most often observed in the job description.
 
 
+<center>
+
+```{r echo=FALSE, fig.align="center"}
+icon::fa("hourglass-start", size = 3)
+```
+
+</center>
 
 ### Github
 Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found.
