@@ -45,25 +45,29 @@ icon::fa("hourglass-half", size = 3)
 * Guojing Wu | Email:gw2383@cumc.columbia.edu
 
 
+<center>
+
 ```{r echo=FALSE, fig.align="center"}
-icon::fa("hourglass-end", size = 3)
+icon::fa("hourglass-start", size = 3)
 ```
+
 
 </center>
 
 ### Major Findings 
 
 * **Northeastern states** and **California** are in high demand of labor with data science skills, **Texas** and **Corolado** are the most potential data science hubs.
-* **Bachelor**
-*
-*
+* **Bachelor** degrees are the most common 
+* **Python**, **R** and **SQL** are most required tools. 
+* **Non-Fortune 500** companies prefer more data manipulation tools, while **Fortune 500** companies require high-level programming tools.
+* 
 * 
 
 
 <center>
 
 ```{r echo=FALSE, fig.align="center"}
-icon::fa("hourglass-start", size = 3)
+icon::fa("hourglass-end", size = 3)
 ```
 
 </center>
